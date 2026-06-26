@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #0F1115;
+    font-family: Roboto;
+}
+
+.header {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.tagline {
+    color: #E53E3E;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+.topic {
+    color: #F1F5F9;
+    font-size: 50px;
+    text-shadow: 4px 2px orange;
+}
+
+.content {
+    color: #CBD5E1;
+}
+
+.content::first-letter {
+    font-weight: bold;
+    color: goldenrod;
+    font-size: 35px;
+}
+
+.content::first-line {
+    font-style: italic;
+    color: lightyellow;
+}
+
+
+img {
+    width: 600px;
+    margin-left: 100px;
+}
+
+.article {
+    background-color: #1A1D24;
+    border: #F59E0B solid;
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: rgb(187, 149, 14) 0px 5px 15px;
+
+}
+
+.article:hover {
+    box-shadow: rgb(187, 129, 14) 0px 10px 36px 0px, rgb(187, 129, 14) 0px 0px 0px 1px;
+}
+
+
+a:link {
+    color: lightgoldenrodyellow;
+}
+
+a:visited {
+    color: #F59E0B;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkgray;
+}
+
+a:focus {
+    background-color: lightgoldenrodyellow;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    font-size: 30px
+}
+
+span {
+    color: white;
+}
